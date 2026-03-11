@@ -17,7 +17,7 @@
     "license": "MIT",
     "description": "V grammar for tree-sitter",
     "links": {
-      "repository": "https://github.com/vlang/v-analyzer.git"
+      "repository": "https://github.com/DaZhi-the-Revelator/tree-sitter-v.git"
     }
   }
 }
