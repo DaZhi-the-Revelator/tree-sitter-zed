@@ -1,0 +1,4 @@
+[submodule "bindings/core"]
+	path = bindings/core
+	url = https://github.com/tree-sitter/tree-sitter
+	shallow = true
