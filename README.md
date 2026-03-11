@@ -8,6 +8,20 @@ This grammar is heavily derived from the following language grammars:
 - [tree-sitter-ruby](https://github.com/tree-sitter/tree-sitter-ruby/)
 - [tree-sitter-c](https://github.com/tree-sitter/tree-sitter-c/)
 
+## Building from Source
+
+This repository uses a nested Git submodule (`bindings/core`) for the tree-sitter C runtime. Clone with:
+
+```sh
+git clone --recurse-submodules https://github.com/DaZhi-the-Revelator/tree-sitter-v
+```
+
+Or, if you already cloned without `--recurse-submodules`:
+
+```sh
+git submodule update --init --recursive
+```
+
 ## Limitations
 
 1. It does not support all deprecated/outdated syntaxes to avoid any ambiguities and to enforce the
